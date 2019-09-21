@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+
+	margin-top: 50px;
+
+	font-family: sans-serif;
+}
+
+header {
+
+	display: flex;
+
+	position: fixed;
+
+	top: 0;
+
+	left: 0;
+
+	right: 0;
+
+	height: 50px;
+
+	line-height: 50px;
+
+	background-color: #eee;
+}
+
+header * {
+	display: inline;
+
+	height: 50px;
+
+}
+
+.image {
+
+	border-radius: 50%;
+}
+
+header ul {
+	padding: 0;
+
+}
+
+header li {
+	margin-left: 20px;
+
+}
+
+header a {
+
+	text-decoration: none;
+
+	color: black;
+
+}
+
+section {
+	height: 100vh;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	text-align: center;
+
+	color: white;
+
+	background-size: cover;
+
+	background-position: center center;
+
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+
+}
+
+#hero img {
+
+	width: 300px;
+
+	border-radius: 50%;
+
+}
+
+#hero h1 {
+	font-size: 3em;
+
+}
+
+section h2 {
+	font-size: 2.5em;
+
+}
+
+section h3 {
+	font-size: 1.5em;
+
+}
+
+#hero {
+	background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url('3.jpg');
+
+}
+
+#about {
+	background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('7.jpg');
+
+}
+
+#contact {
+	background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('9.jpg');
+
+}
+
+.about {
+	width: 800px;
+
+	height: 100px;
+	
+}
+
+footer {
+
+	text-align: center;
+
+	padding: 50px;
+
+	background-color: grey;
+	
+}
